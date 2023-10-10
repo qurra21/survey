@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verify email</title>
+    <link rel="stylesheet" href="verifyEmail1.css">
+
+    <script>
+        function clearPassword() {
+            document.getElementById('password').value = '';
+        }
+
+        window.onload = clearPassword;
+    </script>
+</head>
+<body>
+    <div class="Box">
+        <img class="google-logo" src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png" alt="not found">
+        <h2>Verify it's you</h2>
+            <div class="user-icon">
+                <img src="https://static.thenounproject.com/png/4035892-200.png"alt="">
+                <p>chaipov@gmail.com</p>
+            </div>
+      
+        <form action="">
+        <div class="inputBox">
+                <input type="password" name="" id="password" required value="" onkeyup="this.setAttribute('value', this.value);">
+                <label for="pssword"> password </label>
+        </div>
+        <div class="forget">
+            <button>Forget password?</button>
+           </div>
+        </form>
+        <div class="sign-in">
+            <a href="survey.html"> Sign in</a>
+           </div>
+    </div>
+</body>
+</html>
